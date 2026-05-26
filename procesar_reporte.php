@@ -1,11 +1,11 @@
 <?php
 // procesar_reporte.php
 
-// Credenciales por defecto de XAMPP
-$servidor = "localhost";
-$usuario = "root";
-$contrasena = "";
-$base_datos = "voces_itz";
+// Credenciales de producción en InfinityFree
+$servidor = "sql303.infinityfree.com";
+$usuario = "if0_42021003";
+$contrasena = "vec14RKwdYn6";
+$base_datos = "if0_42021003_voces_itz";
 
 // Crear conexión
 $conexion = new mysqli($servidor, $usuario, $contrasena, $base_datos);
