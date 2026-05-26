@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 errorMsg.style.display = "none";
                 alert("¡Acceso validado! Redirigiendo al portal...");
-                window.location.href = "/voces_itz/index.php"; 
+                window.location.href = "/voces_itz/inicio.php"; 
             }
         });
     }
