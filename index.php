@@ -3,7 +3,7 @@
 $servidor = "sql303.infinityfree.com";
 $usuario = "if0_42021003";
 $contrasena = "vec14RKwdYn6";
-$base_datos = "voces_itz";
+$base_datos = "if0_42021003_XXX";
 
 $conexion = new mysqli($servidor, $usuario, $contrasena, $base_datos);
 if ($conexion->connect_error) {
