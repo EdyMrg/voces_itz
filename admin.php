@@ -52,7 +52,7 @@ $total_reportes = $resultado_reportes->num_rows;
     <nav class="navbar">
         <div class="logo">Voces ITZ | Panel de Control (Admin)</div>
         <ul class="nav-links">
-            <li><a href="index.php">Ver Portal</a></li>
+            <li><a href="inicio.php">Ver Portal</a></li>
             <li><a href="login.html" class="btn-logout" style="border-color: #E74C3C; color: #E74C3C;">Cerrar Sesión</a></li>
         </ul>
     </nav>
