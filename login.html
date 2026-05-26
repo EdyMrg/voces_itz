@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso - Portal Estudiantil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Estilos locales para el título -->
+    <style>
+        .login-title {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Un pequeño sombreado opcional para que resalte más */
+        }
+    </style>
+
+</head>
+<body class="login-body">
+    <div class="login-wrapper">
+
+        <h1 class="login-title">VOCES ITZ</h1>
+        
+        <div class="avatar-container">
+            <img src="itz.png" alt="Logo" class="avatar-img">
+        </div>
+        
+        <form id="loginForm" class="login-form">
+            <div class="input-container">
+                <i class="fas fa-user input-icon"></i>
+                <input type="email" id="email" placeholder="Correo Institucional" required>
+            </div>
+            
+            <div class="input-container">
+                <i class="fas fa-lock input-icon"></i>
+                <input type="password" id="password" placeholder="22000000Nombre" required>
+            </div>
+            
+            <small id="loginError" class="error-msg" style="display: none; color: #ff6b6b; margin-bottom: 15px; text-align: center;"></small>
+
+            <button type="submit" class="btn-login">LOGIN</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
